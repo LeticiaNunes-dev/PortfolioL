@@ -1,0 +1,72 @@
+import { Button } from "@/components/ui/button";
+import { Mail, MapPin, Phone } from "lucide-react";
+
+const Contact = () => {
+  const contactInfo = [
+    {
+      icon: Mail,
+      label: "Email",
+      value: "contato@exemplo.com",
+      href: "mailto:contato@exemplo.com"
+    },
+    {
+      icon: Phone,
+      label: "Telefone",
+      value: "+55 (11) 99999-9999",
+      href: "tel:+5511999999999"
+    },
+    {
+      icon: MapPin,
+      label: "Localização",
+      value: "São Paulo, Brasil",
+      href: "#"
+    }
+  ];
+
+  return (
+    <section id="contact" className="py-20 bg-secondary/30">
+      <div className="container mx-auto px-4">
+        <div className="max-w-4xl mx-auto space-y-12">
+          <div className="text-center space-y-4">
+            <h2 className="text-4xl md:text-5xl font-bold">
+              Entre em <span className="text-primary">Contato</span>
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Vamos trabalhar juntos no seu próximo projeto
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {contactInfo.map((info, index) => (
+              <a
+                key={index}
+                href={info.href}
+                className="p-6 rounded-lg bg-gradient-card border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-glow group text-center"
+              >
+                <div className="mb-4 inline-flex p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                  <info.icon className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">{info.label}</h3>
+                <p className="text-muted-foreground text-sm">{info.value}</p>
+              </a>
+            ))}
+          </div>
+
+          <div className="text-center pt-8">
+            <Button 
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow"
+              asChild
+            >
+              <a href="mailto:contato@exemplo.com">
+                Enviar Mensagem
+              </a>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
