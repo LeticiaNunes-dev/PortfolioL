@@ -28,7 +28,7 @@ const Skills = () => {
     },
     {
       title: "Outras Tecnologias",
-      skills: ["Bootstrap", "Tailwind CSS", "JSON", "REST", "Figma"]
+      skills: ["Tailwind CSS", "JSON", "REST"]
     }
   ];
 
