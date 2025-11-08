@@ -38,7 +38,7 @@ const Skills = () => {
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Minhas <span className="text-primary">Skills</span>
+              Minhas <span className="text-primary">Habilidades</span>
             </h2>
             <p className="text-muted-foreground text-lg">
               Tecnologias e ferramentas que domino
