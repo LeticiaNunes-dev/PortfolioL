@@ -44,7 +44,7 @@ const Navigation = () => {
               scrollToSection("#home");
             }}
           >
-            Portfolio
+            Letícia Nunes
           </a>
 
           {/* Desktop Navigation */}

@@ -17,7 +17,7 @@ const Index = () => {
       
       <footer className="bg-background border-t border-border py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Portfolio. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Letícia Nunes da Silva. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>

@@ -15,10 +15,13 @@ const Hero = () => {
           <div className="space-y-4">
             <p className="text-primary text-lg font-medium tracking-wide">Olá, eu sou</p>
             <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-foreground via-primary to-accent">
-              Desenvolvedora Full Stack
+              Letícia Nunes da Silva
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Criando experiências digitais incríveis com código limpo e design inovador
+              Estudante de Desenvolvimento de Sistemas Full-Stack | 17 anos
+            </p>
+            <p className="text-lg text-muted-foreground">
+              Senac (Gama-DF)
             </p>
           </div>
 
@@ -43,7 +46,7 @@ const Hero = () => {
 
           <div className="flex gap-4 justify-center items-center pt-8">
             <a 
-              href="https://github.com" 
+              href="https://github.com/LeticiaNunes-dev" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors border border-border hover:border-primary/50"
@@ -51,7 +54,7 @@ const Hero = () => {
               <Github className="h-5 w-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/leticia-nunes" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors border border-border hover:border-primary/50"
@@ -59,7 +62,7 @@ const Hero = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:contato@exemplo.com"
+              href="mailto:lelelilivivi2000@gmail.com"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 transition-colors border border-border hover:border-primary/50"
             >
               <Mail className="h-5 w-5" />

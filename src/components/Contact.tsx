@@ -1,24 +1,24 @@
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Github } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
     {
       icon: Mail,
       label: "Email",
-      value: "contato@exemplo.com",
-      href: "mailto:contato@exemplo.com"
+      value: "lelelilivivi2000@gmail.com",
+      href: "mailto:lelelilivivi2000@gmail.com"
     },
     {
-      icon: Phone,
-      label: "Telefone",
-      value: "+55 (11) 99999-9999",
-      href: "tel:+5511999999999"
+      icon: Github,
+      label: "GitHub",
+      value: "LeticiaNunes-dev",
+      href: "https://github.com/LeticiaNunes-dev"
     },
     {
       icon: MapPin,
       label: "Localização",
-      value: "São Paulo, Brasil",
+      value: "Gama-DF, Brasil",
       href: "#"
     }
   ];
@@ -58,7 +58,7 @@ const Contact = () => {
               className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow"
               asChild
             >
-              <a href="mailto:contato@exemplo.com">
+              <a href="mailto:lelelilivivi2000@gmail.com">
                 Enviar Mensagem
               </a>
             </Button>
