@@ -28,11 +28,10 @@ const About = () => {
               Sobre <span className="text-primary">Mim</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Sou uma estudante apaixonada por Desenvolvimento de Sistemas com forte interesse em programação 
-              full-stack, tendo maior afinidade e foco em desenvolvimento backend. Minha paixão é transformar 
-              ideias em projetos práticos, utilizando meu conhecimento em diversas tecnologias para criar 
-              soluções funcionais e inovadoras. Estou sempre buscando aprender e crescer profissionalmente, 
-              pronta para enfrentar novos desafios.
+              Sou uma Programadora Full-Stack em formação com forte preferência e dedicação ao desenvolvimento Backend. 
+              Busco ativamente uma alocação profissional para aplicar meus conhecimentos em lógica de programação, 
+              banco de dados e segurança. Tenho ênfase na construção de APIs, microsserviços e sistemas robustos 
+              e escaláveis. Estou pronta para transformar desafios em soluções eficientes e de alto impacto.
             </p>
           </div>
 
