@@ -4,7 +4,11 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Linguagens de Programação",
-      skills: ["Java", "JavaScript", "Python (básico)", "HTML5", "CSS3"]
+      skills: ["Java", "JavaScript", "Python (básico)"]
+    },
+    {
+      title: "Linguagens de Marcação e Estilo",
+      skills: ["HTML5", "CSS3"]
     },
     {
       title: "Backend & Frameworks",
@@ -12,7 +16,7 @@ const Skills = () => {
     },
     {
       title: "Banco de Dados",
-      skills: ["SQL", "NoSQL (MongoDB)", "MySQL", "PostgreSQL"]
+      skills: ["NoSQL (MongoDB)", "MySQL", "PostgreSQL"]
     },
     {
       title: "Ferramentas de Desenvolvimento",
