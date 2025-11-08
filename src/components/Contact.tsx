@@ -31,9 +31,6 @@ const Contact = () => {
             <h2 className="text-4xl md:text-5xl font-bold">
               Entre em <span className="text-primary">Contato</span>
             </h2>
-            <p className="text-muted-foreground text-lg">
-              Vamos trabalhar juntos no seu próximo projeto
-            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
