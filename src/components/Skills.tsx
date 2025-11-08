@@ -4,19 +4,27 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Linguagens de Programação",
-      skills: ["Java", "JavaScript", "Python (básico)", "HTML5", "CSS3"]
+      skills: ["Java", "JavaScript", "Python (básico)", "HTML5", "CSS3", "SQL"]
     },
     {
       title: "Backend & Frameworks",
-      skills: ["Spring Boot", "APIs REST", "POO"]
+      skills: ["Spring Boot", "APIs REST", "POO", "Node.js (básico)"]
     },
     {
       title: "Banco de Dados",
-      skills: ["SQL", "NoSQL (MongoDB)"]
+      skills: ["SQL", "NoSQL (MongoDB)", "MySQL", "PostgreSQL"]
     },
     {
-      title: "Fundamentos",
-      skills: ["Lógica de Programação", "Desenvolvimento Web", "Git"]
+      title: "Ferramentas de Desenvolvimento",
+      skills: ["VS Code", "Eclipse", "IntelliJ IDEA", "Git", "GitHub", "Postman", "Maven"]
+    },
+    {
+      title: "Metodologias & Conceitos",
+      skills: ["Lógica de Programação", "Scrum", "MVC", "Clean Code", "Testes Unitários"]
+    },
+    {
+      title: "Outras Tecnologias",
+      skills: ["Bootstrap", "Tailwind CSS", "JSON", "REST", "Figma"]
     }
   ];
 
