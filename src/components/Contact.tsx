@@ -48,18 +48,6 @@ const Contact = () => {
               </a>
             ))}
           </div>
-
-          <div className="text-center pt-8">
-            <Button 
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow"
-              asChild
-            >
-              <a href="mailto:lelelilivivi2000@gmail.com">
-                Enviar Mensagem
-              </a>
-            </Button>
-          </div>
         </div>
       </div>
     </section>
